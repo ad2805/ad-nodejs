@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd work/apis-nodejs
+            cd apis-nodejs
             rm -rf *
             pm2 start index.js
 
