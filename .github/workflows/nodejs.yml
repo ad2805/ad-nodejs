@@ -40,6 +40,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /home/work
-            rm -r *
             pm2 start index.js
 
