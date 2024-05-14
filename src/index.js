@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send(
-    " i have done succesfully completed deploying to ecr, Thought of the day - The only failure is not trying..",
+    " Hi iam arijit, Thought of the day - The only failure is not trying..",
   );
 });
 
