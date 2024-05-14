@@ -4,6 +4,8 @@ FROM node:14-alpine
 # Set the working directory in the container
 WORKDIR /app
 
+# Copy .env file
+COPY .env ./
 
 # Copy the entire application to the container
 COPY . .
